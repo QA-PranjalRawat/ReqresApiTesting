@@ -8,7 +8,7 @@ public class Test09_PatchUpdate extends ResponseFile{
     public void patchUpdate(){
         JSONObject request = new JSONObject();
         request.put("name","oliver");
-        request.put("job","DDA");
+
 
         System.out.println(request);
 
